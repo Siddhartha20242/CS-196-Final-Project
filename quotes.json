@@ -1,0 +1,502 @@
+[
+    {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "category": "Motivation"
+    },
+    {
+        "quote": "When something is important enough, you do it even if the odds are not in your favor.",
+        "author": "Elon Musk",
+        "category": "Future"
+    },
+    {
+        "quote": "I could either watch it happen or be a part of it.",
+        "author": "Elon Musk",
+        "category": "Future"
+    },
+    {
+        "quote": "Some people don't like change, but you need to embrace change if the alternative is disaster.",
+        "author": "Elon Musk",
+        "category": "Future"
+    },
+    {
+        "quote": "Persistence is very important. You should not give up unless you are forced to give up.",
+        "author": "Elon Musk",
+        "category": "Motivation"
+    },
+    {
+        "quote": "I think it is possible for ordinary people to choose to be extraordinary.",
+        "author": "Elon Musk",
+        "category": "Motivation"
+    },
+    {
+        "quote": "If you get up in the morning and think the future is going to be better, that is a bright day.",
+        "author": "Elon Musk",
+        "category": "Future"
+    },
+    {
+        "quote": "Rocket science is not that difficult.",
+        "author": "Elon Musk",
+        "category": "Funny"
+    },
+    {
+        "quote": "It's OK to have your eggs in one basket as long as you control what happens to that basket.",
+        "author": "Elon Musk",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "Brand is just a perception, and perception will match reality over time.",
+        "author": "Elon Musk",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt",
+        "category": "Future"
+    },
+    {
+        "quote": "The best way to predict the future is to invent it.",
+        "author": "Alan Kay",
+        "category": "Future"
+    },
+    {
+        "quote": "Life is what happens when you're busy making other plans.",
+        "author": "John Lennon",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "In the middle of difficulty lies opportunity.",
+        "author": "Albert Einstein",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+        "author": "Franklin D. Roosevelt",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The purpose of our lives is to be happy.",
+        "author": "Dalai Lama",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
+        "author": "Oscar Wilde",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        "author": "Nelson Mandela",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Life is either a daring adventure or nothing at all.",
+        "author": "Helen Keller",
+        "category": "Motivation"
+    },
+    {
+        "quote": "You miss 100% of the shots you don't take.",
+        "author": "Wayne Gretzky",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Whether you think you can or you think you can't, you're right.",
+        "author": "Henry Ford",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The journey of a thousand miles begins with one step.",
+        "author": "Lao Tzu",
+        "category": "Motivation"
+    },
+    {
+        "quote": "That which does not kill us makes us stronger.",
+        "author": "Friedrich Nietzsche",
+        "category": "Motivation"
+    },
+    {
+        "quote": "You must be the change you wish to see in the world.",
+        "author": "Mahatma Gandhi",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The mind is everything. What you think you become.",
+        "author": "Buddha",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "Change your thoughts and you change your world.",
+        "author": "Norman Vincent Peale",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Dream big and dare to fail.",
+        "author": "Norman Vaughan",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Everything you\u2019ve ever wanted is on the other side of fear.",
+        "author": "George Addair",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Our greatest glory is not in never failing, but in rising every time we fail.",
+        "author": "Confucius",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Do what you can, with what you have, where you are.",
+        "author": "Theodore Roosevelt",
+        "category": "Motivation"
+    },
+    {
+        "quote": "It does not matter how slowly you go as long as you do not stop.",
+        "author": "Confucius",
+        "category": "Motivation"
+    },
+    {
+        "quote": "If you want to lift yourself up, lift up someone else.",
+        "author": "Booker T. Washington",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "It's not whether you get knocked down, it's whether you get up.",
+        "author": "Vince Lombardi",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The best revenge is massive success.",
+        "author": "Frank Sinatra",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Success usually comes to those who are too busy to be looking for it.",
+        "author": "Henry David Thoreau",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The only place where success comes before work is in the dictionary.",
+        "author": "Vidal Sassoon",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Don't watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Keep your face always toward the sunshine\u2014and shadows will fall behind you.",
+        "author": "Walt Whitman",
+        "category": "Motivation"
+    },
+    {
+        "quote": "What we think, we become.",
+        "author": "Buddha",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "Do not let what you cannot do interfere with what you can do.",
+        "author": "John Wooden",
+        "category": "Motivation"
+    },
+    {
+        "quote": "You can't use up creativity. The more you use, the more you have.",
+        "author": "Maya Angelou",
+        "category": "Creativity"
+    },
+    {
+        "quote": "Creativity is intelligence having fun.",
+        "author": "Albert Einstein",
+        "category": "Creativity"
+    },
+    {
+        "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+        "author": "Thomas Edison",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "The secret of getting ahead is getting started.",
+        "author": "Mark Twain",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Strive not to be a success, but rather to be of value.",
+        "author": "Albert Einstein",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The only way around is through.",
+        "author": "Robert Frost",
+        "category": "Motivation"
+    },
+    {
+        "quote": "If you can dream it, you can do it.",
+        "author": "Walt Disney",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Act as if what you do makes a difference. It does.",
+        "author": "William James",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Don't be afraid to give up the good to go for the great.",
+        "author": "John D. Rockefeller",
+        "category": "Motivation"
+    },
+    {
+        "quote": "You don't learn to walk by following rules. You learn by doing, and by falling over.",
+        "author": "Richard Branson",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "I've failed over and over and over again in my life and that is why I succeed.",
+        "author": "Michael Jordan",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Energy and persistence conquer all things.",
+        "author": "Benjamin Franklin",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The only person you are destined to become is the person you decide to be.",
+        "author": "Ralph Waldo Emerson",
+        "category": "Motivation"
+    },
+    {
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Tough times never last but tough people do.",
+        "author": "Dr. Robert Schuller",
+        "category": "Motivation"
+    },
+    {
+        "quote": "If everything seems under control, you're not going fast enough.",
+        "author": "Mario Andretti",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Don't count the days, make the days count.",
+        "author": "Muhammad Ali",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Life shrinks or expands in proportion to one's courage.",
+        "author": "Ana\u00efs Nin",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The road to success and the road to failure are almost exactly the same.",
+        "author": "Colin R. Davis",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Failure is the condiment that gives success its flavor.",
+        "author": "Truman Capote",
+        "category": "Motivation"
+    },
+    {
+        "quote": "You must expect great things of yourself before you can do them.",
+        "author": "Michael Jordan",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Opportunities don't happen, you create them.",
+        "author": "Chris Grosser",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Don't wish it were easier; wish you were better.",
+        "author": "Jim Rohn",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Everything you can imagine is real.",
+        "author": "Pablo Picasso",
+        "category": "Creativity"
+    },
+    {
+        "quote": "The best dreams happen when you're awake.",
+        "author": "Cherie Gilderbloom",
+        "category": "Inspiration"
+    },
+    {
+        "quote": "The future starts today, not tomorrow.",
+        "author": "John F. Kennedy",
+        "category": "Future"
+    },
+    {
+        "quote": "Imagination is more important than knowledge.",
+        "author": "Albert Einstein",
+        "category": "Creativity"
+    },
+    {
+        "quote": "What lies behind us and what lies ahead of us are tiny matters compared to what lives within us.",
+        "author": "Ralph Waldo Emerson",
+        "category": "Inspiration"
+    },
+    {
+        "quote": "Life is really simple, but we insist on making it complicated.",
+        "author": "Confucius",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "Happiness is not something ready-made. It comes from your own actions.",
+        "author": "Dalai Lama",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "To handle yourself, use your head; to handle others, use your heart.",
+        "author": "Eleanor Roosevelt",
+        "category": "Leadership"
+    },
+    {
+        "quote": "Leadership is not about titles, positions, or flowcharts. It is about one life influencing another.",
+        "author": "John C. Maxwell",
+        "category": "Leadership"
+    },
+    {
+        "quote": "The function of leadership is to produce more leaders, not more followers.",
+        "author": "Ralph Nader",
+        "category": "Leadership"
+    },
+    {
+        "quote": "A leader is one who knows the way, goes the way, and shows the way.",
+        "author": "John C. Maxwell",
+        "category": "Leadership"
+    },
+    {
+        "quote": "The best leaders are those most interested in surrounding themselves with assistants and associates smarter than they are.",
+        "author": "John C. Maxwell",
+        "category": "Leadership"
+    },
+    {
+        "quote": "Innovation distinguishes between a leader and a follower.",
+        "author": "Steve Jobs",
+        "category": "Innovation"
+    },
+    {
+        "quote": "If you want something new, you have to stop doing something old.",
+        "author": "Peter F. Drucker",
+        "category": "Innovation"
+    },
+    {
+        "quote": "Great things in business are never done by one person. They're done by a team of people.",
+        "author": "Steve Jobs",
+        "category": "Leadership"
+    },
+    {
+        "quote": "The most effective way to do it, is to do it.",
+        "author": "Amelia Earhart",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Dreams don\u2019t work unless you do.",
+        "author": "John C. Maxwell",
+        "category": "Motivation"
+    },
+    {
+        "quote": "A year from now you may wish you had started today.",
+        "author": "Karen Lamb",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Don't limit your challenges. Challenge your limits.",
+        "author": "Jerry Dunn",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The distance between insanity and genius is measured only by success.",
+        "author": "Bruce Feirstein",
+        "category": "Creativity"
+    },
+    {
+        "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+        "author": "Winston Churchill",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Success seems to be connected with action. Successful people keep moving.",
+        "author": "Conrad Hilton",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The way to get started is to quit talking and begin doing.",
+        "author": "Walt Disney",
+        "category": "Motivation"
+    },
+    {
+        "quote": "If you really look closely, most overnight successes took a long time.",
+        "author": "Steve Jobs",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Dare to be naive.",
+        "author": "Buckminster Fuller",
+        "category": "Inspiration"
+    },
+    {
+        "quote": "Make each day your masterpiece.",
+        "author": "John Wooden",
+        "category": "Motivation"
+    },
+    {
+        "quote": "The more I practice, the luckier I get.",
+        "author": "Gary Player",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Start where you are. Use what you have. Do what you can.",
+        "author": "Arthur Ashe",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Everything has beauty, but not everyone sees it.",
+        "author": "Confucius",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+        "author": "Winston Churchill",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Life is short, and it is here to be lived.",
+        "author": "Kate Winslet",
+        "category": "Wisdom"
+    },
+    {
+        "quote": "The greatest pleasure in life is doing what people say you cannot do.",
+        "author": "Walter Bagehot",
+        "category": "Motivation"
+    },
+    {
+        "quote": "If you want to make your dreams come true, the first thing you have to do is wake up.",
+        "author": "J.M. Power",
+        "category": "Motivation"
+    },
+    {
+        "quote": "Life is about making an impact, not making an income.",
+        "author": "Kevin Kruse",
+        "category": "Inspiration"
+    },
+    {
+        "quote": "hi",
+        "author": "Sid",
+        "category": "Motivation"
+    }
+]
