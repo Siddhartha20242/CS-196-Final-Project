@@ -124,82 +124,98 @@ class QuoteApp(tk.Tk):
         self.config(menu=menubar)
 
     def _build_widgets(self):
-        """Build and arrange all main UI components."""
-        self._build_top_frame()
-        self._build_middle_frame()
-        self._build_bottom_frame()
+        """Let's get the main UI bits and pieces set up here."""
+        self._build_top_frame() # First, the stuff at the top for quote display
+        self._build_middle_frame() # Then the filters and the list of quotes
+        self._build_bottom_frame() # Finally, the controls at the bottom for adding/editing
 
     def _build_top_frame(self):
-        """Create top area with quote display and navigation buttons."""
+        """The top part where the magic quote appears and we can navigate."""
         self.top_frame = ttk.Frame(self)
         self.top_frame.pack(fill='x', padx=10, pady=10)
 
+        # The big label to show the actual quote. Make it wrap nicely!
         self.quote_label = tk.Label(
             self.top_frame,
-            text='', wraplength=760,
-            justify='center', font=('Arial', 14, 'italic'),
-            bd=2, relief='solid', padx=10, pady=10
+            text='',
+            wraplength=760,
+            justify='center',
+            font=('Arial', 14, 'italic'),
+            bd=2,
+            relief='solid',
+            padx=10,
+            pady=10
         )
         self.quote_label.pack(fill='x')
 
+        # A little row of buttons for doing stuff with the quote
         btn_frame = ttk.Frame(self.top_frame)
         btn_frame.pack(pady=5)
-        ttk.Button(btn_frame, text='⏮ Previous', command=self.show_prev_quote).grid(row=0, column=0, padx=5)
-        ttk.Button(btn_frame, text='🔀 Random',  command=self.show_random_quote).grid(row=0, column=1, padx=5)
-        ttk.Button(btn_frame, text='⏭ Next',    command=self.show_next_quote).grid(row=0, column=2, padx=5)
-        ttk.Button(btn_frame, text='⭐ Rate',    command=self.rate_current).grid(row=0, column=3, padx=5)
-        ttk.Button(btn_frame, text='📋 Copy',    command=self.copy_to_clipboard).grid(row=0, column=4, padx=5)
+        ttk.Button(btn_frame, text='Previous!', command=self.show_prev_quote).grid(row=0, column=0, padx=5)
+        random_button = ttk.Button(btn_frame, text='Gimme Random!',  command=self.show_random_quote)
+        random_button.grid(row=0, column=1, padx=5)
+        next_button = ttk.Button(btn_frame, text='Next One →',    command=self.show_next_quote)
+        next_button.grid(row=0, column=2, padx=5)
+        rate_button = ttk.Button(btn_frame, text='Rate This ✨',    command=self.rate_current)
+        rate_button.grid(row=0, column=3, padx=5)
+        copy_button = ttk.Button(btn_frame, text='Snag It!',    command=self.copy_to_clipboard)
+        copy_button.grid(row=0, column=4, padx=5)
 
     def _build_middle_frame(self):
-        """Create middle area with filters and list of quotes."""
+        """This is where we can play with filtering and see the quote list."""
         middle = ttk.Frame(self)
         middle.pack(fill='both', expand=True, padx=10, pady=10)
 
-        filter_pane = ttk.LabelFrame(middle, text='Filters', width=200)
+        filter_pane = ttk.LabelFrame(middle, text='Tweaking Time', width=200)
         filter_pane.pack(side='left', fill='y', padx=5)
-        ttk.Label(filter_pane, text='Category:').pack(anchor='w', padx=5, pady=2)
+        ttk.Label(filter_pane, text='Pick a Category:').pack(anchor='w', padx=5, pady=2)
         self.category_var = tk.StringVar(value=self.settings.get('last_category',''))
         self.category_combo = ttk.Combobox(
             filter_pane, textvariable=self.category_var,
             values=self.categories, state='readonly'
         )
         self.category_combo.pack(fill='x', padx=5)
-        ttk.Button(filter_pane, text='Apply', command=self.filter_quotes).pack(pady=5)
+        filter_button = ttk.Button(filter_pane, text='Filter!', command=self.filter_quotes)
+        filter_button.pack(pady=5)
 
-        ttk.Label(filter_pane, text='Search:').pack(anchor='w', padx=5, pady=2)
+        ttk.Label(filter_pane, text='Look for Something:').pack(anchor='w', padx=5, pady=2)
         self.search_var = tk.StringVar()
         search_entry = ttk.Entry(filter_pane, textvariable=self.search_var)
         search_entry.pack(fill='x', padx=5)
-        ttk.Button(filter_pane, text='Search', command=self.search_quotes).pack(pady=5)
+        search_button = ttk.Button(filter_pane, text='Find It', command=self.search_quotes)
+        search_button.pack(pady=5)
 
         list_pane = ttk.Frame(middle)
         list_pane.pack(side='right', fill='both', expand=True)
         self.listbox = tk.Listbox(list_pane, font=('Arial', 11))
         self.listbox.pack(fill='both', expand=True)
-        self.listbox.bind('<<ListboxSelect>>', self.on_select)
+        self.listbox.bind('<<ListboxSelect>>', self.on_select) # What happens when you click a quote? For now, not much!
 
     def _build_bottom_frame(self):
-        """Create bottom area for adding/editing quotes."""
-        bottom = ttk.LabelFrame(self, text='Manage Quote')
+        """The bottom bit where we can mess with adding, editing, and deleting."""
+        bottom = ttk.LabelFrame(self, text='Quote Control Panel')
         bottom.pack(fill='x', padx=10, pady=10)
 
-        ttk.Label(bottom, text='Quote:').grid(row=0, column=0, sticky='e')
+        ttk.Label(bottom, text='The Quote Itself:').grid(row=0, column=0, sticky='e')
         self.new_quote_var = tk.StringVar()
         ttk.Entry(bottom, textvariable=self.new_quote_var, width=80).grid(row=0, column=1, columnspan=3, pady=2)
 
-        ttk.Label(bottom, text='Author:').grid(row=1, column=0, sticky='e')
+        ttk.Label(bottom, text='Who Said It?:').grid(row=1, column=0, sticky='e')
         self.new_author_var = tk.StringVar()
         ttk.Entry(bottom, textvariable=self.new_author_var).grid(row=1, column=1, pady=2)
 
-        ttk.Label(bottom, text='Category:').grid(row=1, column=2, sticky='e')
+        ttk.Label(bottom, text='What Kind Of Quote Is It?:').grid(row=1, column=2, sticky='e')
         self.new_category_var = tk.StringVar()
         ttk.Entry(bottom, textvariable=self.new_category_var).grid(row=1, column=3, pady=2)
 
-        self.add_button = ttk.Button(bottom, text='➕ Add', command=self.add_or_save)
+        self.add_button = ttk.Button(bottom, text='✨ Add New One', command=self.add_or_save)
         self.add_button.grid(row=2, column=0, pady=5)
-        ttk.Button(bottom, text='✏️ Edit', command=self.prepare_edit).grid(row=2, column=1)
-        ttk.Button(bottom, text='🗑️ Delete', command=self.delete_quote).grid(row=2, column=2)
-        ttk.Button(bottom, text='💾 Save All', command=self.save_all).grid(row=2, column=3)
+        edit_button = ttk.Button(bottom, text='✍️ Tweak It', command=self.prepare_edit)
+        edit_button.grid(row=2, column=1)
+        delete_button = ttk.Button(bottom, text='💣 Get Rid Of It', command=self.delete_quote)
+        delete_button.grid(row=2, column=2)
+        save_button = ttk.Button(bottom, text='💾 Save Everything', command=self.save_all)
+        save_button.grid(row=2, column=3)
 
     def apply_theme(self):
         """Apply light or dark theme based on settings."""
