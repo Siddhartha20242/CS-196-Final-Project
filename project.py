@@ -212,9 +212,9 @@ class QuoteApp(tk.Tk):
         self.add_button.grid(row=2, column=0, pady=5)
         edit_button = ttk.Button(bottom, text='✍️ Tweak It', command=self.prepare_edit)
         edit_button.grid(row=2, column=1)
-        delete_button = ttk.Button(bottom, text='💣 Get Rid Of It', command=self.delete_quote)
+        delete_button = ttk.Button(bottom, text=' Get Rid Of It', command=self.delete_quote)
         delete_button.grid(row=2, column=2)
-        save_button = ttk.Button(bottom, text='💾 Save Everything', command=self.save_all)
+        save_button = ttk.Button(bottom, text=' Save Everything', command=self.save_all)
         save_button.grid(row=2, column=3)
 
     def apply_theme(self):
