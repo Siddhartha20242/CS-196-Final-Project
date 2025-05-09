@@ -14,7 +14,7 @@ DARK_THEME = {'bg': '#2E2E2E', 'fg': '#FFFFFF', 'btn_bg': '#3C3C3C', 'btn_fg': '
 LIGHT_THEME = {'bg': '#FFFFFF', 'fg': '#000000', 'btn_bg': '#E0E0E0', 'btn_fg': '#000000'}
 
 logging.basicConfig(filename='quote_app.log', level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+                    format='%(asctime)s - %(levelname)s - %(message)s') #https://stackoverflow.com/questions/13479295/python-using-basicconfig-method-to-log-to-console-and-file got a help from here
 
 
 def load_json_file(path, default):
@@ -127,14 +127,14 @@ class QuoteApp(tk.Tk):
         """Let's get the main UI bits and pieces set up here."""
         self._build_top_frame() # First, the stuff at the top for quote display
         self._build_middle_frame() # Then the filters and the list of quotes
-        self._build_bottom_frame() # Finally, the controls at the bottom for adding/editing
+        self._build_bottom_frame() # Fthe control at bottom, one
 
     def _build_top_frame(self):
         """The top part where the magic quote appears and we can navigate."""
         self.top_frame = ttk.Frame(self)
         self.top_frame.pack(fill='x', padx=10, pady=10)
 
-        # The big label to show the actual quote. Make it wrap nicely!
+       
         self.quote_label = tk.Label(
             self.top_frame,
             text='',
@@ -189,7 +189,7 @@ class QuoteApp(tk.Tk):
         list_pane.pack(side='right', fill='both', expand=True)
         self.listbox = tk.Listbox(list_pane, font=('Arial', 11))
         self.listbox.pack(fill='both', expand=True)
-        self.listbox.bind('<<ListboxSelect>>', self.on_select) # What happens when you click a quote? For now, not much!
+        self.listbox.bind('<<ListboxSelect>>', self.on_select) #.../// LIke twhat hapoens dwhen you clicdk the quote
 
     def _build_bottom_frame(self):
         """The bottom bit where we can mess with adding, editing, and deleting."""
