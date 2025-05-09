@@ -29,3 +29,22 @@ nor does it automatically feature a "quote of the day." There is no backup or cl
 In summary, the Quote Manager Application gives you an offline, easy, and colorful way to save and manage your favorite quotes. It covers basic
 needs like browsing, searching, and organizing, while keeping the design straightforward and reliable. Further extensions can add cloud sync, 
 user accounts, or more polished animations in the future.
+
+
+
+
+                              
+                                   Technology Stack:
+
+Python
+tkinter
+json module (for JSON handling)
+csv module (for CSV handling)
+pyperclip library (for clipboard functionality)
+logging module (for error logging)
+
+
+
+
+
+
